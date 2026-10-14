@@ -21,15 +21,16 @@ Python · FastAPI · Pydantic · PyMongo · MongoDB
 1. Create and activate a virtual environment.
 2. Install dependencies:
    pip install -r requirements.txt
-  
+   
 
 3. Configure `MONGO_URI` and `MONGO_DB` in your local `.env` file.
 4. Ensure MongoDB is running and load the sample data:
- python sample_seed.py
-   
+   python sample_seed.py
+  
 
 5. Start the application:
-python -m uvicorn app.main:app --port 8000
+   python -m uvicorn app.main:app --port 8000
+  
 
 ## API Documentation
 
